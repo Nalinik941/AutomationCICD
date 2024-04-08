@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Nalini.Test.Listenersdemo"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ErrorValidations(failed)" verbose="0">
+    <classes>
+      <class name="Nalini.ErrorValidations">
+        <methods>
+          <include name="teardown"/>
+          <include name="LaunchApplication"/>
+          <include name="loginerrorvalidation"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- Nalini.ErrorValidations -->
+    </classes>
+  </test> <!-- ErrorValidations(failed) -->
+  <test thread-count="5" parallel="tests" name="PageObjectE2ETest(failed)" verbose="0">
+    <classes>
+      <class name="Nalini.PageObjectE2ETest">
+        <methods>
+          <include name="teardown"/>
+          <include name="submitOrder"/>
+          <include name="LaunchApplication"/>
+          <include name="OrderHistroyTest"/>
+        </methods>
+      </class> <!-- Nalini.PageObjectE2ETest -->
+    </classes>
+  </test> <!-- PageObjectE2ETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

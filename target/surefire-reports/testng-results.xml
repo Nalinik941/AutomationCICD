@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T13:54:49 IST" name="Suite" finished-at="2024-04-01T13:55:48 IST" duration-ms="59131">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.loginerrorvalidation()[pri:0, instance:Nalini.ErrorValidations@782859e]" name="loginerrorvalidation" class="Nalini.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="PageObjectE2ETest.submitOrder(java.util.HashMap)[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" name="submitOrder" class="Nalini.PageObjectE2ETest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-04-01T13:54:49 IST" name="ErrorValidations" finished-at="2024-04-01T13:55:20 IST" duration-ms="30308">
+      <class name="Nalini.ErrorValidations">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Nalini.ErrorValidations@782859e]" started-at="2024-04-01T13:54:49 IST" name="LaunchApplication" finished-at="2024-04-01T13:54:58 IST" duration-ms="8298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Nalini.ErrorValidations@782859e]" started-at="2024-04-01T13:54:58 IST" name="ProductErrorValidation" finished-at="2024-04-01T13:55:12 IST" duration-ms="14590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Nalini.ErrorValidations@782859e]" started-at="2024-04-01T13:55:12 IST" name="teardown" finished-at="2024-04-01T13:55:12 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Nalini.ErrorValidations@782859e]" started-at="2024-04-01T13:55:12 IST" name="LaunchApplication" finished-at="2024-04-01T13:55:19 IST" duration-ms="6301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="loginerrorvalidation()[pri:0, instance:Nalini.ErrorValidations@782859e]" started-at="2024-04-01T13:55:19 IST" name="loginerrorvalidation" finished-at="2024-04-01T13:55:20 IST" duration-ms="933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Nalini.ErrorValidations@782859e]" started-at="2024-04-01T13:55:20 IST" name="teardown" finished-at="2024-04-01T13:55:20 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Nalini.ErrorValidations -->
+    </test> <!-- ErrorValidations -->
+    <test started-at="2024-04-01T13:54:49 IST" name="PageObjectE2ETest" finished-at="2024-04-01T13:55:48 IST" duration-ms="59131">
+      <class name="Nalini.PageObjectE2ETest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:54:50 IST" name="LaunchApplication" finished-at="2024-04-01T13:54:58 IST" duration-ms="8645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:54:58 IST" name="submitOrder" data-provider="getData" finished-at="2024-04-01T13:55:18 IST" duration-ms="20037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pass=Pruthvi@02, itemname=ADIDAS ORIGINAL, email=pruthvi@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:55:18 IST" name="teardown" finished-at="2024-04-01T13:55:19 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:55:19 IST" name="LaunchApplication" finished-at="2024-04-01T13:55:24 IST" duration-ms="5237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:55:24 IST" name="submitOrder" data-provider="getData" finished-at="2024-04-01T13:55:43 IST" duration-ms="19309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pass=Nalini@95, itemname=ZARA COAT 3, email=nalini@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:55:43 IST" name="teardown" finished-at="2024-04-01T13:55:43 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:55:43 IST" name="LaunchApplication" finished-at="2024-04-01T13:55:47 IST" duration-ms="4353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="OrderHistroyTest()[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:55:47 IST" name="OrderHistroyTest" finished-at="2024-04-01T13:55:48 IST" depends-on-methods="Nalini.PageObjectE2ETest.submitOrder" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistroyTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Nalini.PageObjectE2ETest@7c37508a]" started-at="2024-04-01T13:55:48 IST" name="teardown" finished-at="2024-04-01T13:55:48 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Nalini.PageObjectE2ETest -->
+    </test> <!-- PageObjectE2ETest -->
+  </suite> <!-- Suite -->
+</testng-results>
