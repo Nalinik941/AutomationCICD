@@ -41,6 +41,7 @@ public class BaseTest {
 		//String browsername=prop.getProperty("browser");(when we are fetching data from datareader file
 		
 	//	if(browsername.equalsIgnoreCase("Chrome"))
+        // Nalini first code
 		if(browsername.contains("chrome"))
 		{
 			ChromeOptions options=new ChromeOptions();
